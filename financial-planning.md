@@ -30,18 +30,18 @@
 ##### Grants (Free Money - No Repayment)
 | Grant Name | Amount | Eligibility | Renewable? |
 |-----------|--------|-------------|------------|
-| Federal Pell Grant | $______ | | Yes/No |
-| Federal SEOG | $______ | | Yes/No |
-| State Grants | $______ | | Yes/No |
-| Institutional Grants | $______ | | Yes/No |
+| Federal Pell Grant | $______ | [Eligibility criteria] | Yes/No |
+| Federal SEOG | $______ | [Eligibility criteria] | Yes/No |
+| State Grants | $______ | [Eligibility criteria] | Yes/No |
+| Institutional Grants | $______ | [Eligibility criteria] | Yes/No |
 | **Total Grants** | **$______** | | |
 
 ##### Scholarships (Free Money - No Repayment)
 | Scholarship Name | Amount | Deadline | Requirements | Renewable? |
 |-----------------|--------|----------|--------------|------------|
-| | $______ | | | Yes/No |
-| | $______ | | | Yes/No |
-| | $______ | | | Yes/No |
+| [Name] | $______ | [Date] | [Requirements] | Yes/No |
+| [Name] | $______ | [Date] | [Requirements] | Yes/No |
+| [Name] | $______ | [Date] | [Requirements] | Yes/No |
 | **Total Scholarships** | **$______** | | | |
 
 ##### Work-Study
@@ -52,10 +52,10 @@
 ##### Student Loans
 | Loan Type | Amount | Interest Rate | Subsidized? | Repayment Terms |
 |-----------|--------|---------------|-------------|-----------------|
-| Federal Direct Subsidized | $______ | _____% | Yes | |
-| Federal Direct Unsubsidized | $______ | _____% | No | |
-| Perkins Loan | $______ | _____% | Yes | |
-| Private Loans | $______ | _____% | No | |
+| Federal Direct Subsidized | $______ | _____% | Yes | [Terms] |
+| Federal Direct Unsubsidized | $______ | _____% | No | [Terms] |
+| Perkins Loan | $______ | _____% | Yes | [Terms] |
+| Private Loans | $______ | _____% | No | [Terms] |
 | **Total Loans/Year** | **$______** | | | |
 
 ##### Parent Loans

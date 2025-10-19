@@ -332,8 +332,8 @@
 ### Upcoming Milestones
 | Milestone | Target Date | Status | Notes |
 |-----------|-------------|---------|-------|
-| [Next milestone] | [Date] | Not started | |
-| [Future milestone] | [Date] | Not started | |
+| [Next milestone] | [Date] | Not started | [Add notes] |
+| [Future milestone] | [Date] | Not started | [Add notes] |
 
 ---
 
