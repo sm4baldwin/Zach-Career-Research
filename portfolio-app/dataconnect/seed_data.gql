@@ -1,0 +1,32 @@
+mutation CreateSeedData @transaction @auth(level: PUBLIC, insecureReason: "This operation is safe to expose to the public.") {
+  # Replace with actual data for your schema
+  # Example using User and Post types (adjust based on your schema)
+  user_insertMany(data: [
+    {
+      id: "550e8400-e29b-41d4-a716-446655440000",
+      username: "demouser1",
+      email: "demouser1@example.com",
+      createdAt: "2024-01-01T00:00:00Z" #ISO 8601 timestamp
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440001",
+      username: "demouser2",
+      email: "demouser2@example.com",
+      createdAt: "2024-01-02T00:00:00Z" #ISO 8601 timestamp
+    }
+  ])
+  post_insertMany(data: [
+    {
+      id: "650e8400-e29b-41d4-a716-446655440000",
+      userUid: "550e8400-e29b-41d4-a716-446655440000",
+      content: "Example post from demouser1",
+      createdAt: "2024-01-03T00:00:00Z" #ISO 8601 timestamp
+    },
+    {
+      id: "650e8400-e29b-41d4-a716-446655440001",
+      userUid: "550e8400-e29b-41d4-a716-446655440001",
+      content: "Example post from demouser2",
+      createdAt: "2024-01-04T00:00:00Z" #ISO 8601 timestamp
+    }
+  ])
+}

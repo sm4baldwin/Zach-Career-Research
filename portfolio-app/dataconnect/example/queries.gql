@@ -1,0 +1,41 @@
+# Example 1: A PUBLIC query to list public posts.  Adapt table and field names.
+query ListPublicPosts @auth(level: PUBLIC, insecureReason: "This operation is safe to expose to the public") {
+  posts(where: { isPublic: { eq: true } }) {
+    id
+    title
+    content
+  }
+}
+
+# Example 2: A USER query to get the current user's profile.  Adapt table and field names.
+query GetMyProfile @auth(level: USER) {
+  users(where: { uid: { eq_expr: "auth.uid" } }) {
+    uid
+    displayName
+    email
+    avatarUrl
+  }
+}
+
+# Example 3: A USER mutation to update the current user's profile.  Adapt table and field names.
+mutation UpdateMyProfile($displayName: String, $avatarUrl: String) @auth(level: USER) {
+  user: user_update(
+    key: { uid_expr: "auth.uid" }
+    data: {
+      displayName: $displayName
+      avatarUrl: $avatarUrl
+    }
+  )
+}
+
+# Example 4: A USER mutation to create a new post. Adapt table and field names.
+mutation CreatePost($title: String!, $content: String!) @auth(level: USER) {
+  post: post_insert(
+    data: {
+      title: $title
+      content: $content
+      userUid_expr: "auth.uid"
+      createdAt_expr: "request.time"
+    }
+  )
+}
