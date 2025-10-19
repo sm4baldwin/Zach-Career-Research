@@ -10,11 +10,12 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Researcher, Developer, and Lifelong Learner
           </p>
-          <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-8">
-            {/* Placeholder for profile image */}
-            <div className="flex items-center justify-center h-full text-gray-500">
-              Photo
-            </div>
+          <div className="w-32 h-32 mx-auto mb-8">
+            <img 
+              src="/profile-photo.jpg" 
+              alt="Zach Avila profile photo"
+              className="w-full h-full object-cover rounded-full shadow-lg"
+            />
           </div>
         </div>
 
