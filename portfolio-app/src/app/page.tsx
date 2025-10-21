@@ -6,9 +6,9 @@ export default function Home() {
       <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Zach Avila</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Zachary Avila</h1>
           <p className="text-xl text-gray-600 mb-8">
-            Researcher, Developer, and Lifelong Learner
+            Student, Athlete, and Anthropomorphic Lamppost
           </p>
           <div className="w-32 h-32 mx-auto mb-8">
             <img 
@@ -24,17 +24,16 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">About Me</h2>
           <div className="prose prose-lg text-gray-600 space-y-4">
             <p>
-              Welcome to my personal portfolio. I&apos;m passionate about research, technology, and continuous learning.
-              This space serves as a collection of my work, thoughts, and discoveries.
+              Welcome to my personal portfolio. I&apos;m passionate about personal growth and integrity, the future of technology, and continuous challenging myself.
+              This space serves as a collection of my accomplishments, thoughts, and side-projects.
             </p>
             <p>
-              My interests span across various domains including software development, research methodologies, 
-              and exploring innovative solutions to complex problems. I believe in the power of knowledge sharing 
-              and collaborative growth.
+              My interests span across various domains including small business endeavors, the use-cases of AI in news, 
+              and NFL player stats and trends. I believe learning from mentors, while owning responsibility of my own future. Success is better when shared!
             </p>
             <p>
-              Feel free to explore my research projects, development work, and curated reading materials. 
-              I&apos;m always open to connecting with fellow researchers, developers, and curious minds.
+              Feel free to explore my projects, essays, and other personally meaningful content. 
+              I&apos;m always open to connecting with and learning from like-minded students, experienced entrepreneurs, or fellow Cowboys fans!
             </p>
           </div>
         </div>
@@ -42,30 +41,30 @@ export default function Home() {
         {/* Quick Links */}
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-lg font-semibold text-gray-900 mb-3">Research</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-3">Accomplishments</h3>
             <p className="text-gray-600 mb-4">
-              Explore my current and past research projects, methodologies, and findings.
+              Admire my incredible successes, and see all the nice things people have said about me! (Thankns mom!)
             </p>
-            <a href="/research" className="text-blue-600 hover:text-blue-800 font-medium">
-              View Research →
+            <a href="/accomplishments" className="text-blue-600 hover:text-blue-800 font-medium">
+              View Accomplishments →
             </a>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Projects</h3>
             <p className="text-gray-600 mb-4">
-              Check out my development projects, tools, and technical experiments.
+              Check out my essays and thoughts. Mostly rants about football.
             </p>
-            <a href="/projects" className="text-blue-600 hover:text-blue-800 font-medium">
-              View Projects →
+            <a href="/reading" className="text-blue-600 hover:text-blue-800 font-medium">
+              View Essays →
             </a>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Reading</h3>
             <p className="text-gray-600 mb-4">
-              Discover my curated collection of insightful articles, papers, and resources.
+              Explore my current and past school projects, personal research, and small side-gigs.
             </p>
-            <a href="/reading" className="text-blue-600 hover:text-blue-800 font-medium">
-              Browse Reading →
+            <a href="/projects" className="text-blue-600 hover:text-blue-800 font-medium">
+              Explore Projects →
             </a>
           </div>
         </div>
