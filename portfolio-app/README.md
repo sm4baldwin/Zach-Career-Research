@@ -22,23 +22,26 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd portfolio-app
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -67,14 +70,15 @@ src/
 
 ### Adding Content
 
-1. **Research Projects**: Edit the `researchProjects` array in `/src/app/research/page.tsx`
-2. **Development Projects**: Edit the `projects` array in `/src/app/projects/page.tsx`
-3. **Reading List**: Edit the `readingList` array in `/src/app/reading/page.tsx`
+1. **Accomplishments**: Edit the `accomplishments` array in `/src/app/accomplishments/page.tsx`
+2. **Essays**: Edit the `essayList` array in `/src/app/essays/page.tsx`
+3. **Projects**: Edit the `projects` array in `/src/app/projects/page.tsx`
 4. **About Me**: Edit the content in `/src/app/page.tsx`
 
 ### Styling
 
 The site uses Tailwind CSS for styling. You can:
+
 - Modify colors and themes in `tailwind.config.ts`
 - Add custom components in the `/src/components` directory
 - Extend global styles in `/src/app/globals.css`
@@ -98,21 +102,25 @@ The project is configured for Firebase hosting and analytics:
 ### Firebase Hosting
 
 1. Install Firebase CLI:
+
 ```bash
 npm install -g firebase-tools
 ```
 
 2. Login to Firebase:
+
 ```bash
 firebase login
 ```
 
 3. Build the project:
+
 ```bash
 npm run build
 ```
 
 4. Deploy to Firebase:
+
 ```bash
 firebase deploy
 ```
@@ -120,8 +128,9 @@ firebase deploy
 ### Alternative Deployment
 
 The app can also be deployed to:
+
 - Vercel (recommended for Next.js)
-- Netlify  
+- Netlify
 - AWS Amplify
 - Any Node.js hosting provider
 
@@ -133,6 +142,7 @@ The project includes example API routes:
 - `/api/projects` - Fetch projects data
 
 These can be extended for:
+
 - Email notifications
 - Database integration
 - Authentication

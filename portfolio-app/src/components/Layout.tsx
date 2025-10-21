@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { ReactNode } from 'react';
+import Link from "next/link";
+import { ReactNode } from "react";
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,22 +12,37 @@ export default function Layout({ children }: LayoutProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
+              <Link
+                href="/"
+                className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors"
+              >
                 Zach Avila
               </Link>
             </div>
             <div className="flex items-center space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <Link
+                href="/"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
                 About
               </Link>
-              <Link href="/research" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Research
+              <Link
+                href="/accomplishments"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Accomplishments
               </Link>
-              <Link href="/projects" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <Link
+                href="/essays"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Essays
+              </Link>
+              <Link
+                href="/projects"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
                 Projects
-              </Link>
-              <Link href="/reading" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Reading
               </Link>
             </div>
           </div>
